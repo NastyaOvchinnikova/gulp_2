@@ -1,0 +1,31 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css">
+  <title>Gulp start pattern - стартовый gulp шаблон от DL Academy</title>
+</head>
+<body>
+  @@include('./../components/header.html')
+  <main>
+    <div class="main">
+      <div class="container">
+        <h1 class="main-title">КРАТКАЯ ИНФОРМАЦИЯ ОБО МНЕ</h1>
+        <p class="main-text">Здесь нужно написать краткую информацию о себе, интересы, какие у тебя есть хобби, какие
+            ты смотришь сериалы или фильмы и тд</p>
+      </div>
+    </div>
+
+    <div class="main__content">
+      <div class="container">
+        <h1 class="main__content-list">Контакты</h1>
+          <div class="main__content-text"><a class="main__a" href="#">Ссылка на ВК</a></div>
+          <div class="main__content-text"><a class="main__a" href="#">Ссылка на Инстаграм</a></div>
+          <div class="main__content-text"><a class="main__a" href="#">Номер сотового</a></div>
+      </div>
+    </div>
+  </main>
+  @@include('./../components/footer.html')
+</body>
+<script src="script.js"></script>
+</html>

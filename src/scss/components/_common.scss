@@ -1,0 +1,32 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: auto;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  margin: 35px 0 0 0;
+}
+
+footer { 
+  width: 100%;
+}
+
+@mixin img(){
+  width: 655px;
+  height: 409px;
+}
